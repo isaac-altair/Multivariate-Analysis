@@ -1,0 +1,5 @@
+fish = read.table("fish.txt", header = TRUE)
+attach(fish)
+y = cbind(x1, x2, x3, x4)
+fit = manova(Y~factor(method), data = fish)
+summary(fit, test = "Wilks")
