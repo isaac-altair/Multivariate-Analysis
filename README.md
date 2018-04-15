@@ -1,2 +1,2 @@
-"# Multivariate-Analysis" 
-# Multivariate-Analysis
+"# Multivariate Analysis" 
+# Multivariate Analysis
